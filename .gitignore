@@ -1,0 +1,11 @@
+.tools/
+.qa/
+__pycache__/
+.venv/
+*.pyc
+*.pdf
+!/examples/example.pdf
+*.docx
+exp3*
+.DS_Store
+Thumbs.db

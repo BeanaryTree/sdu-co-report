@@ -1,0 +1,15 @@
+[package]
+name = "sdu-co-report"
+version = "0.1.0"
+entrypoint = "report.typ"
+authors = ["BeanaryTree <BeanaryTree@163.com>"]
+repository = "https://github.com/BeanaryTree/sdu-co-report"
+license = "MIT"
+description = "山东大学计算机组成原理课程实验报告模板。"
+compiler = "0.15.0"
+keywords = ["实验报告", "山东大学", "计算机组成原理"]
+exclude = ["/.git/", "/.github/", "/.qa/", "/.tools/", "/.venv/", "/tests/", "/examples/"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
