@@ -1,11 +1,8 @@
-.tools/
-.qa/
+# 测试生成的文件与 Python 缓存
+/.qa/
 __pycache__/
-.venv/
 *.pyc
+
+# 忽略编译生成的 PDF，但保留示例预览
 *.pdf
 !/examples/example.pdf
-*.docx
-exp3*
-.DS_Store
-Thumbs.db

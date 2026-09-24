@@ -8,7 +8,7 @@ license = "MIT"
 description = "山东大学计算机组成原理课程实验报告模板。"
 compiler = "0.15.0"
 keywords = ["实验报告", "山东大学", "计算机组成原理"]
-exclude = ["/.git/", "/.github/", "/.qa/", "/.tools/", "/.venv/", "/tests/", "/examples/"]
+exclude = ["/.git/", "/.qa/", "/tests/", "/examples/"]
 
 [template]
 path = "template"
